@@ -1,7 +1,7 @@
 **SQL DATABASE**
 ----------------------------------------
 
-1. *CREATE DATABASE* - used to create a new SQL database.
+**1.** *CREATE DATABASE* - used to create a new SQL database.
 Syntax :
 ```
 CREATE DATABASE database_name;
