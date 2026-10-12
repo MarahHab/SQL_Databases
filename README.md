@@ -80,3 +80,44 @@ Syntax :
 ```
 TRUNCATE TABLE table_name;
 ```
+
+9. *ALTER TABLE* -  is used to add, delete, or modify columns in an existing table.
+Common ALTER TABLE operations are:
+
+- Add column - Adds a new column to a table
+syntax:
+```
+ALTER TABLE table_name
+ADD column_name datatype;
+```
+- Drop column - Deletes a column in a table
+Syntax :
+```
+ALTER TABLE table_name
+DROP COLUMN column_name;
+```
+- Rename column - Renames a column.
+Syntax :
+```
+ALTER TABLE table_name
+RENAME COLUMN old_name to new_name;
+```
+- Modify column - Changes the data type, size, or constraints of a column
+Syntax:
+```
+ALTER TABLE table_name
+ALTER COLUMN column_name new_datatype constraint;
+```
+- Add constraint - Adds a new constraint.
+
+Syntax:
+```
+ALTER TABLE table_name
+ADD CONSTRAINT constraint_name constraint_definition;
+```
+- Rename table - Renames a table
+Syntax :
+```
+ALTER TABLE table_name
+RENAME TO new_table_name;
+```
