@@ -184,3 +184,21 @@ SELECT column1, column2, ...
 FROM table_name
 WHERE condition;
 ```
+
+15. *SQL Injection*  is a type of cyberattack where someone inserts malicious SQL code into an input field to manipulate a database.
+
+** SQL Injection Based on 1=1 is Always True:
+user can enter some "smart" input like this:
+
+UserId:  105  OR  1=1
+
+
+```
+SELECT * FROM Users WHERE UserId = 105 OR 1=1;
+```
+The SQL above is valid and will return ALL rows from the "Users" table, since OR 1=1 is always TRUE.
+
+** SQL Injection Based on OR ""="" is Always True
+
+
+16. *SQL Parameters*  - Prevent SQL Injection -SQL parameters (Parameterized Queries) can be used to protect a web site from SQL injections
