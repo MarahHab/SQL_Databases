@@ -157,3 +157,18 @@ CREATE UNIQUE INDEX index_name
 ON table_name (column1, column2, ...);
 ```
 12. *AUTO INCREMENT* -  automatically generates a new number whenever you insert a new row into a table. It's commonly used for an ID column.
+
+13. *Dates* - 
+**MySQL** has the following date data types:
+- DATE - format YYYY-MM-DD
+- DATETIME - format: YYYY-MM-DD HH:MI:SS
+- TIMESTAMP - format: YYYY-MM-DD HH:MI:SS
+- TIME - format: HH:MI:SS
+- YEAR - format YYYY or YY
+
+**SQL Server** has the following date data types:
+- DATE - format YYYY-MM-DD
+- DATETIME - format: YYYY-MM-DD HH:MI:SS
+- SMALLDATETIME - format: YYYY-MM-DD HH:MI:SS
+- TIME - format: HH:MI:SS
+- TIMESTAMP - format: a unique number
