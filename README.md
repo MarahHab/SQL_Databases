@@ -143,3 +143,16 @@ The CHECK constraint evaluates the data to **TRUE** or **FALSE**.
 
 ** Both the UNIQUE and PRIMARY KEY constraints provide a guarantee for uniqueness for a column or set of columns.
 
+11. *CREATE INDEX* -   is used to create indexes on tables in databases, to speed up data retrieval.
+There are two types of indexes:
+
+- CREATE INDEX - Creates a non-unique index (duplicate values are allowed)
+```
+CREATE INDEX index_name
+ON table_name (column1, column2, ...);
+```
+- CREATE UNIQUE INDEX - Creates a unique index (duplicate values are not allowed)
+```
+CREATE UNIQUE INDEX index_name
+ON table_name (column1, column2, ...);
+```
