@@ -172,3 +172,15 @@ ON table_name (column1, column2, ...);
 - SMALLDATETIME - format: YYYY-MM-DD HH:MI:SS
 - TIME - format: HH:MI:SS
 - TIMESTAMP - format: a unique number
+
+14. *CREATE VIEW* -  lets you create a virtual table based on the result of a SQL query.
+
+Think of it as saving a query so you can use it again easily without rewriting it every time.
+
+ Syntax : 
+ ```
+CREATE VIEW view_name AS
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+```
