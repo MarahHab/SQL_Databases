@@ -121,3 +121,25 @@ Syntax :
 ALTER TABLE table_name
 RENAME TO new_table_name;
 ```
+
+10. *SQL Constraints* -  constraints are rules for data in a table.
+
+Constraints can be specified in two ways:
+- When a table is created (through the CREATE TABLE statement)
+- After a table is created (through the ALTER TABLE statement)
+
+SQL Constraint Types
+The following constraints are commonly used in SQL:
+
+- NOT NULL - Ensures that a column cannot have a NULL value
+- UNIQUE - Ensures that all values in a column are unique
+- PRIMARY KEY - Uniquely identifies each row in a table , and cannot contain NULL values(a combination of a NOT NULL and UNIQUE)
+- FOREIGN KEY - Establishes a link between data in two tables, and prevents action that will destroy the link between them.
+A FOREIGN KEY is a column in a table that refers to the PRIMARY KEY in another table.
+- CHECK - Ensures that the values in a column satisfies a specific condition.
+The CHECK constraint evaluates the data to **TRUE** or **FALSE**.
+- DEFAULT - Sets a default value for a column if no value is specified
+- CREATE INDEX - Creates indexes on columns to retrieve data from the database faster
+
+** Both the UNIQUE and PRIMARY KEY constraints provide a guarantee for uniqueness for a column or set of columns.
+
