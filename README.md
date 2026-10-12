@@ -156,3 +156,4 @@ ON table_name (column1, column2, ...);
 CREATE UNIQUE INDEX index_name
 ON table_name (column1, column2, ...);
 ```
+12. *AUTO INCREMENT* -  automatically generates a new number whenever you insert a new row into a table. It's commonly used for an ID column.
